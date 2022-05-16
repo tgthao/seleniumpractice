@@ -22,7 +22,8 @@ public class ReadTableDataWithPaginationInListOfMap {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		String fileURL = System.getProperty("user.dir");
-		driver.get(fileURL + "/src/test/resources/htmlFiles/WebTablePagination.html");
+		//driver.get(fileURL + "/src/test/resources/htmlFiles/WebTablePagination.html");
+		driver.get("/Users/giangthao/Desktop/WorkSpace/mse_readytouseseleniumjavacode/src/test/resources/htmlFiles/WebTablePagination.html");
 
 		// Let's get header first
 		String headerLoc = "//table[@id='dtBasicExample']//tr//th";
