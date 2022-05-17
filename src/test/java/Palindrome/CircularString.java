@@ -13,7 +13,7 @@ public class CircularString {
         // Splitting input string in to string array
         String inputArray[]= input.split(" ");
         // validation for acceptable index
-        // index should be grater than or equal to zero and less than length of array // Update Mac OS branch Code
+        // index should be grater than or equal to zero and less than length of array // Update Infor Mation Mac OS branch Code
         if(index >=0 && index < inputArray.length)
         {
             System.out.print("Output: ");
