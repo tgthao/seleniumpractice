@@ -18,7 +18,7 @@ public class EquivalanceTriangle {
                 for (int spaceCounter=0; spaceCounter<NoOfSpaces; spaceCounter++)
                 {
                     // printing spaces
-                    System.out.print("+");
+                    System.out.print("");
                 }
 
                 NoOfSpaces = NoOfSpaces - 1;
